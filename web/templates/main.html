@@ -1,0 +1,100 @@
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+	<link rel="icon" href="{{ url_for('static', filename='images/Logo.png') }}" type="image/x-icon"/>
+
+	<div class="panel panel-default">
+		<div class="panel-heading"><center><img src="static/images/Logo.png" width="8%" height="8%"/></center><h1 style="text-align:center;">{{ title }}</h1></div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<form class="form-inline text-center" name="user_data" action="/" method="POST">
+				<label for="smoker">Smoker:</label>
+				<select class="selectpicker form-control" name="smoker">
+					{% for smoke in smoker %}
+						{% if smoke == user_smoker %}
+						<option selected=True value="{{ smoke }}">{{ smoke }}</option>
+						{% else %}
+						<option value="{{ smoke }}">{{ smoke }}</option>
+						{% endif %}
+					{% endfor %}
+				</select>
+				<label for="drink_level">Drink Level:</label>
+				<select class="selectpicker form-control" name="drink_level">
+					{% for drink in drink_level %}
+						{% if drink == user_drink %}
+						<option selected=True value="{{ drink }}">{{ drink }}</option>
+						{% else %}
+						<option value="{{ drink }}">{{ drink }}</option>
+						{% endif %}
+					{% endfor %}
+				</select>
+				<label for="dress_preference">Dress Preference:</label>
+				<select class="selectpicker form-control" name="dress_preference">
+					{% for dress in dress_preference %}
+						{% if dress == user_dress %}
+						<option selected=True value="{{ dress }}">{{ dress }}</option>
+						{% else %}
+						<option value="{{ dress }}">{{ dress }}</option>
+						{% endif %}
+					{% endfor %}
+				</select>
+				<label for="budget">Budget:</label>
+				<select class="selectpicker form-control" name="budget">
+					{% for bud in budget %}
+						{% if bud == user_budget %}
+						<option selected=True value="{{ bud }}">{{ bud }}</option>
+						{% else %}
+						<option value="{{ bud }}">{{ bud }}</option>
+						{% endif %}
+					{% endfor %}
+				</select>
+				<label for="transport">Transport:</label>
+				<select class="selectpicker form-control" name="transport">
+					{% for tran in transport %}
+						{% if tran == user_tran %}
+						<option selected=True value="{{ tran }}">{{ tran }}</option>
+						{% else %}
+						<option value="{{ tran }}">{{ tran }}</option>
+						{% endif %}
+					{% endfor %}
+				</select>
+				<input type="submit" class="btn btn-primary" name="submit" value="Submit" />
+			</form>
+		</div>
+		{% if res %}
+		<div class="panel-body">
+			{% if user_kms != 0 %}
+			<h3 style="text-align:center;">Results obtained for: <font color="#286090">{{ user_province }}, {{ user_brand }}, {{ user_type }}, {{ user_year }}, {{ user_kms }} kms</font></h3>
+			{% else %}
+			<h3 style="text-align:center;">Results obtained for: <font color="#286090">{{ user_province }}, {{ user_brand }}, {{ user_type }}, {{ user_year }}</font></h3>
+			{% endif %}
+		</div>
+		{% endif %}
+	</div>
+
+	{% if res %}
+	<table class="table table-striped">
+		<tr>
+			<th class="text-center">Vehicle</th>
+			<th class="text-center">Brand</th>
+			<th class="text-center">Province</th>
+			<th class="text-center">Year</th>
+			<th class="text-center">Km</th>
+			<th class="text-center">Price</th>
+			<th class="text-center">Ad link</th>
+		</tr>
+		{% for adv in res %}
+		<tr>
+			<td class="text-center">{{ adv[0] }}</td>
+			<td class="text-center">{{ adv[1] }}</td>
+			<td class="text-center">{{ adv[2] }}</td>
+			<td class="text-center">{{ adv[3] }}</td>
+			<td class="text-center">{{ adv[4] }}</td>
+			<td class="text-center">{{ adv[5] }} €</td>
+			<td class="text-center"><a href="{{ adv[6] }}" target="_blank">Link</a></td>
+		</tr>
+		{% endfor %}
+	</table>
+	{% endif %}
+{% endblock %}
