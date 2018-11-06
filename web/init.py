@@ -5,9 +5,9 @@ from flask import Flask
 from flask import render_template
 from flask import request
 from flask_bootstrap import Bootstrap
-from recommender import Recommender
+from Recomendador import recomienda_10, CodeSmoker, CodeAlcohol, CodeDress, CodeTransport, CodeBudget
 
-data = pd.read_csv('../Data/userprofile.csv', sep=',', encoding='utf-8')
+data = pd.read_csv('static/data/uPerfil_Combo.csv', sep=',', encoding='utf-8')
 
 smoker = sorted(data['smoker'].unique())
 drink_level = sorted(data['drink_level'].unique())
@@ -28,11 +28,11 @@ def message():
     user_dress = request.form.get("dress_preference")
     user_tran = request.form.get("transport")
     user_budget = request.form.get("budget")
+
     
     if user_smoker != None and user_drink != None and user_dress != None and user_tran != None and user_budget != None:
         # AQUI VA LA LOGICA PARA LLAMAR AL RECOMENDADOR
-        r = Recommender(user_smoker, user_drink, user_dress, user_tran, user_budget)
-        res = r.recommend().values.tolist()
+        res = recomienda_10([CodeSmoker(user_smoker), CodeAlcohol(user_drink), CodeDress(user_dress), CodeTransport(user_tran), CodeBudget(user_budget)]).values.tolist()
     else:
         res = []
 
