@@ -1,0 +1,128 @@
+,userID,smoker,drink_level,dress_preference,transport,budget
+0,U1001,False,Abstemious,Informal,On foot,Medium
+1,U1002,False,Abstemious,Informal,Public,Low
+2,U1003,False,Social drinker,Formal,Public,Low
+3,U1004,False,Abstemious,Informal,Public,Medium
+4,U1005,False,Abstemious,No preference,Public,Medium
+5,U1006,True,Social drinker,No preference,Car owner,Medium
+6,U1007,False,Casual drinker,Informal,Public,Low
+7,U1008,False,Social drinker,Formal,Public,Low
+8,U1009,False,Abstemious,Formal,On foot,Medium
+9,U1010,False,Social drinker,No preference,Car owner,Medium
+10,U1011,False,Abstemious,No preference,Public,Medium
+11,U1012,False,Casual drinker,Formal,Public,Medium
+12,U1013,False,Abstemious,No preference,Public,Medium
+14,U1015,True,Social drinker,Informal,Public,Medium
+15,U1016,False,Casual drinker,Informal,On foot,Medium
+16,U1017,False,Casual drinker,Formal,Public,Medium
+17,U1018,True,Casual drinker,Formal,Public,Low
+18,U1019,False,Casual drinker,No preference,Public,Medium
+19,U1020,False,Abstemious,No preference,Public,Medium
+20,U1021,False,Social drinker,No preference,Car owner,Medium
+21,U1022,False,Casual drinker,Formal,Car owner,Medium
+22,U1023,False,Casual drinker,Informal,Car owner,Low
+24,U1025,False,Social drinker,No preference,Public,Medium
+25,U1026,False,Abstemious,Formal,Public,Medium
+26,U1027,True,Social drinker,No preference,Public,Low
+27,U1028,False,Abstemious,No preference,Public,Medium
+28,U1029,True,Casual drinker,Formal,Public,Low
+29,U1030,False,Casual drinker,Formal,On foot,Medium
+31,U1032,False,Abstemious,Formal,Public,Medium
+32,U1033,False,Social drinker,No preference,On foot,Low
+33,U1034,False,Casual drinker,Informal,Public,Medium
+34,U1035,True,Casual drinker,No preference,Car owner,Medium
+35,U1036,False,Social drinker,Informal,Public,Medium
+36,U1037,False,Social drinker,No preference,Public,Low
+37,U1038,True,Social drinker,No preference,Public,Low
+39,U1040,False,Abstemious,No preference,Public,Medium
+40,U1041,False,Abstemious,No preference,On foot,Medium
+41,U1042,False,Abstemious,No preference,Car owner,High
+42,U1043,False,Abstemious,No preference,Public,Medium
+43,U1044,True,Social drinker,Informal,Car owner,Medium
+44,U1045,False,Casual drinker,Elegant,Car owner,High
+45,U1046,False,Social drinker,No preference,Car owner,Medium
+46,U1047,False,Abstemious,No preference,Public,Medium
+47,U1048,True,Casual drinker,No preference,Public,Medium
+49,U1050,False,Social drinker,No preference,Car owner,Medium
+50,U1051,False,Casual drinker,No preference,Public,Medium
+51,U1052,True,Social drinker,No preference,On foot,Low
+52,U1053,False,Casual drinker,Informal,Public,Low
+53,U1054,False,Social drinker,Formal,Public,Medium
+54,U1055,False,Abstemious,No preference,Car owner,Medium
+55,U1056,False,Social drinker,Informal,On foot,Medium
+56,U1057,True,Casual drinker,Formal,Public,Medium
+57,U1058,False,Abstemious,Formal,Public,Low
+58,U1059,False,Abstemious,Formal,On foot,Medium
+59,U1060,False,Casual drinker,Formal,Public,Medium
+60,U1061,False,Social drinker,No preference,Car owner,Medium
+61,U1062,False,Casual drinker,Informal,Car owner,Medium
+62,U1063,False,Casual drinker,Formal,Public,Medium
+63,U1064,False,Casual drinker,Formal,Public,Medium
+64,U1065,False,Abstemious,Formal,Public,Medium
+65,U1066,False,Abstemious,Informal,Public,Low
+66,U1067,False,Abstemious,No preference,Public,Medium
+67,U1068,False,Casual drinker,Informal,Public,Low
+68,U1069,False,Social drinker,No preference,Public,Medium
+69,U1070,False,Casual drinker,Informal,Public,Low
+70,U1071,False,Abstemious,Formal,Car owner,High
+71,U1072,False,Casual drinker,No preference,Public,Medium
+72,U1073,False,Abstemious,Informal,Car owner,Medium
+73,U1074,True,Casual drinker,No preference,Car owner,Medium
+74,U1075,False,Casual drinker,Informal,Car owner,Medium
+75,U1076,False,Social drinker,Elegant,Public,Medium
+76,U1077,False,Social drinker,Elegant,Public,Medium
+77,U1078,True,Social drinker,Informal,Car owner,Medium
+78,U1079,False,Abstemious,Formal,Public,Medium
+79,U1080,True,Social drinker,Formal,Car owner,Low
+80,U1081,False,Casual drinker,Informal,Public,Low
+81,U1082,True,Abstemious,Informal,Public,Medium
+83,U1084,True,Casual drinker,Formal,Public,Medium
+85,U1086,False,Social drinker,No preference,Car owner,Medium
+86,U1087,False,Abstemious,No preference,Public,Medium
+87,U1088,False,Social drinker,Informal,On foot,Medium
+88,U1089,True,Casual drinker,Informal,Public,Low
+89,U1090,False,Social drinker,No preference,Car owner,Medium
+90,U1091,False,Casual drinker,No preference,Car owner,Low
+91,U1092,False,Abstemious,Formal,Public,Medium
+92,U1093,True,Casual drinker,No preference,Car owner,Medium
+93,U1094,False,Abstemious,Informal,Public,Medium
+94,U1095,False,Abstemious,Formal,Public,Medium
+95,U1096,False,Abstemious,Formal,Public,Medium
+96,U1097,False,Abstemious,Formal,Public,Medium
+97,U1098,False,Social drinker,Formal,Public,Medium
+98,U1099,True,Social drinker,Informal,Public,High
+99,U1100,False,Casual drinker,Formal,Public,Medium
+100,U1101,False,Casual drinker,No preference,Car owner,Low
+101,U1102,False,Social drinker,No preference,On foot,Low
+102,U1103,False,Abstemious,Formal,Public,Medium
+103,U1104,True,Social drinker,No preference,Car owner,Medium
+104,U1105,False,Social drinker,Formal,Public,Medium
+105,U1106,False,Casual drinker,Informal,Car owner,Medium
+106,U1107,False,Abstemious,No preference,Car owner,High
+107,U1108,False,Abstemious,Informal,Public,Medium
+108,U1109,False,Abstemious,Formal,Public,Low
+109,U1110,False,Abstemious,No preference,Car owner,Medium
+110,U1111,True,Casual drinker,Formal,Car owner,Medium
+111,U1112,True,Casual drinker,Formal,Car owner,Medium
+112,U1113,False,Casual drinker,Formal,Public,Medium
+113,U1114,False,Abstemious,No preference,On foot,Medium
+114,U1115,True,Social drinker,Elegant,Public,Low
+115,U1116,False,Social drinker,Formal,Public,Medium
+116,U1117,False,Abstemious,No preference,Public,Medium
+117,U1118,True,Casual drinker,Informal,Public,Medium
+118,U1119,False,Abstemious,Formal,Public,Medium
+119,U1120,False,Abstemious,Informal,Public,Low
+120,U1121,False,Social drinker,No preference,Public,Medium
+123,U1124,False,Casual drinker,Informal,Public,Low
+124,U1125,False,Casual drinker,Formal,Public,Low
+125,U1126,False,Casual drinker,Formal,On foot,Low
+126,U1127,False,Abstemious,No preference,Public,Low
+127,U1128,False,Casual drinker,No preference,Public,Low
+128,U1129,False,Casual drinker,No preference,Public,Low
+130,U1131,True,Social drinker,No preference,Car owner,Medium
+132,U1133,False,Abstemious,No preference,Car owner,Medium
+133,U1134,False,Casual drinker,No preference,Public,Medium
+134,U1135,False,Casual drinker,Informal,On foot,Low
+135,U1136,True,Social drinker,No preference,Car owner,Low
+136,U1137,False,Social drinker,Formal,Public,Low
+137,U1138,False,Social drinker,Formal,Public,Medium

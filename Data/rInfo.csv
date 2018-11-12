@@ -1,0 +1,131 @@
+,placeID,name,alcohol,smoking_area,price,dress_code,parking_lot
+0,134999,Kiku Cuernavaca,No_Alcohol_Served,none,medium,informal,None
+1,132825,puesto de tacos,No_Alcohol_Served,none,low,informal,None
+2,135106,El Rinc�n de San Francisco,Wine-Beer,only at bar,medium,informal,None
+3,132667,little pizza Emilio Portes Gil,No_Alcohol_Served,none,low,informal,None
+4,132613,carnitas_mata,No_Alcohol_Served,permitted,medium,informal,yes
+5,135040,Restaurant los Compadres,Wine-Beer,none,high,informal,yes
+6,132732,Taqueria EL amigo ,No_Alcohol_Served,none,low,casual,None
+7,132875,shi ro ie,Wine-Beer,section,high,informal,other
+8,132609,Pollo_Frito_Buenos_Aires,No_Alcohol_Served,not permitted,low,informal,yes
+9,135082,la Estrella de Dimas,No_Alcohol_Served,none,medium,informal,None
+10,135070,Restaurante 75,No_Alcohol_Served,none,medium,informal,yes
+11,135069,Abondance Restaurante Bar,Wine-Beer,none,low,informal,yes
+12,135065,El angel Restaurante,Wine-Beer,section,high,informal,None
+13,135076,Restaurante Pueblo Bonito,Wine-Beer,none,high,informal,yes
+14,135086,Mcdonalds Parque Tangamanga,No_Alcohol_Served,not permitted,medium,informal,yes
+15,132870,Tortas y hamburguesas el gordo,No_Alcohol_Served,not permitted,low,informal,None
+16,132854,Sirlone,Wine-Beer,none,medium,informal,yes
+17,132937,rockabilly ,Full_Bar,section,low,informal,None
+18,132856,Unicols Pizza,Wine-Beer,none,low,informal,None
+19,132668,TACOS EL GUERO,No_Alcohol_Served,none,low,informal,None
+20,135033,Restaurant El Muladar de Calzada,No_Alcohol_Served,section,medium,informal,None
+21,132862,La Posada del Virrey,Wine-Beer,none,high,casual,other
+22,134983,Restaurant and Bar and Clothesline Carlos N Charlies,Full_Bar,section,high,informal,yes
+23,132851,KFC,No_Alcohol_Served,not permitted,low,informal,yes
+24,135013,Giovannis,No_Alcohol_Served,none,low,informal,None
+25,135042,Restaurant Oriental Express,No_Alcohol_Served,none,medium,informal,None
+26,132768,Mariscos Tia Licha,No_Alcohol_Served,not permitted,medium,casual,None
+27,132561,cafe ambar,No_Alcohol_Served,none,low,informal,None
+28,135045,Restaurante la Gran Via,Wine-Beer,none,high,casual,yes
+29,132847,don burguers,No_Alcohol_Served,none,low,informal,None
+30,135054,Restaurante y Pescaderia Tampico,No_Alcohol_Served,none,high,informal,yes
+31,134975,Rincon del Bife,Full_Bar,section,high,informal,other
+32,135053,La Fontana Pizza Restaurante and Cafe,No_Alcohol_Served,section,high,informal,yes
+33,135050,Restaurante la Estrella de Dima,Wine-Beer,none,high,informal,yes
+34,135025,El Rincon de San Francisco,No_Alcohol_Served,none,medium,informal,None
+35,135030,Preambulo Wifi Zone Cafe,No_Alcohol_Served,none,medium,informal,None
+36,135057,El Herradero Restaurante and Bar,Wine-Beer,section,medium,informal,yes
+37,135079,Koye Sushi,No_Alcohol_Served,none,high,informal,None
+38,134992,Restaurant Teely,Wine-Beer,section,high,casual,yes
+39,132954,la parroquia,No_Alcohol_Served,not permitted,medium,informal,yes
+40,135041,Luna Cafe,Wine-Beer,none,medium,informal,None
+41,132608,Hamburguesas La perica,No_Alcohol_Served,permitted,low,informal,other
+42,135046,Restaurante El Reyecito,No_Alcohol_Served,none,medium,informal,yes
+43,132564,churchs,No_Alcohol_Served,none,low,informal,None
+44,132869,Dominos Pizza,No_Alcohol_Served,not permitted,medium,informal,yes
+45,132925,el pueblito,Wine-Beer,not permitted,medium,informal,None
+46,132955,emilianos,Wine-Beer,none,low,informal,None
+47,135059,Restaurant Bar Hacienda los Martinez,Wine-Beer,section,medium,informal,yes
+48,135001,Vips,Wine-Beer,none,medium,informal,yes
+49,135063,Restaurante Alhondiga,No_Alcohol_Served,none,medium,informal,None
+50,135080,los Toneles,No_Alcohol_Served,section,high,informal,None
+51,135000,Restaurant los Pinos,No_Alcohol_Served,none,medium,informal,None
+52,135066,Restaurante Guerra,Wine-Beer,section,high,informal,yes
+53,135034,Michiko Restaurant Japones,No_Alcohol_Served,none,medium,informal,None
+54,135060,Restaurante Marisco Sam,No_Alcohol_Served,none,medium,informal,None
+55,135055,la Cochinita Pibil Restaurante Yucateco,No_Alcohol_Served,section,high,informal,yes
+56,135108,Potzocalli,No_Alcohol_Served,none,low,informal,None
+57,135074,Restaurante la Parroquia Potosina,Wine-Beer,section,high,informal,other
+58,135018,El Oceano Dorado,Full_Bar,permitted,medium,informal,yes
+59,135064,Restaurante El Chivero S.A. de C.V.,No_Alcohol_Served,none,high,informal,yes
+60,135038,Restaurant la Chalita,No_Alcohol_Served,section,medium,informal,None
+61,135081,El Club,No_Alcohol_Served,none,medium,informal,None
+62,132723,Gordas de morales,Full_Bar,section,medium,informal,other
+63,135051,Restaurante Versalles,No_Alcohol_Served,section,low,informal,None
+64,135021,Subway,No_Alcohol_Served,not permitted,low,informal,other
+65,135052,La Cantina Restaurante,Full_Bar,none,high,informal,None
+66,132845,Cenaduria El Rincón de Tlaquepaque,No_Alcohol_Served,none,medium,informal,None
+67,135011,Los Vikingos,No_Alcohol_Served,none,medium,informal,None
+68,132858,Hamburguesas Valle Dorado,No_Alcohol_Served,none,low,informal,None
+69,135026,la Cantina,Full_Bar,none,high,informal,None
+70,132884,dairy queen,No_Alcohol_Served,none,low,informal,None
+71,135016,Arrachela Grill,No_Alcohol_Served,none,medium,informal,None
+72,135104,vips,Full_Bar,not permitted,medium,informal,yes
+73,132630,palomo tec,No_Alcohol_Served,none,low,informal,None
+74,135047,Restaurante Casa de las Flores,Wine-Beer,section,high,informal,yes
+75,132951,VIPS,No_Alcohol_Served,not permitted,low,casual,yes
+76,132665,TACOS CORRECAMINOS,No_Alcohol_Served,none,low,informal,None
+77,135044,Restaurant Wu Zhuo Yi,No_Alcohol_Served,none,medium,informal,None
+78,135035,El Mundo de la Pasta,No_Alcohol_Served,section,high,informal,yes
+79,135071,Restaurante la Cantina,Full_Bar,section,medium,informal,yes
+80,132834,Gorditas Doa Gloria,No_Alcohol_Served,not permitted,low,casual,other
+81,132846,el lechon potosino ,No_Alcohol_Served,permitted,low,casual,None
+82,135048,Restaurante Bar Fu-hao,Wine-Beer,none,high,informal,yes
+83,132717,tortas hawai,No_Alcohol_Served,not permitted,medium,informal,other
+84,132861,Carls Jr,No_Alcohol_Served,not permitted,medium,informal,yes
+85,132885,Hamburguesas saul,No_Alcohol_Served,none,low,informal,other
+86,132740,Carreton de Flautas y Migadas,No_Alcohol_Served,permitted,low,informal,None
+87,132830,Rincon Huasteco,No_Alcohol_Served,none,low,informal,None
+88,132773,El cotorreo,Wine-Beer,permitted,low,informal,None
+89,132706,Gorditas Dona Tota,No_Alcohol_Served,not permitted,medium,informal,other
+90,132872,Pizzeria Julios,No_Alcohol_Served,not permitted,medium,informal,other
+91,134987,Chilis Cuernavaca,Wine-Beer,none,medium,informal,None
+92,132572,Cafe Chaires,No_Alcohol_Served,not permitted,low,informal,yes
+93,132958,tacos los volcanes,No_Alcohol_Served,none,low,informal,None
+94,132733,Little Cesarz,No_Alcohol_Served,not permitted,medium,informal,yes
+95,132922,cafe punta del cielo,No_Alcohol_Served,permitted,medium,formal,None
+96,132715,tacos de la estacion,No_Alcohol_Served,none,low,informal,None
+97,135027,Restaurant Orizatlan,Wine-Beer,none,medium,informal,None
+98,132767,Restaurant Familiar El Chino,Wine-Beer,permitted,medium,casual,yes
+99,135039,Restaurant de Mariscos de Picon,No_Alcohol_Served,section,low,informal,yes
+100,134996,Sanborns Casa Piedra,Wine-Beer,only at bar,medium,informal,yes
+101,132755,La Estrella de Dimas,No_Alcohol_Served,none,medium,informal,other
+102,135043,pizza clasica,No_Alcohol_Served,none,medium,informal,None
+103,132654,Carnitas Mata  Calle 16 de Septiembre,No_Alcohol_Served,none,low,informal,None
+104,135049,Restaurante de Mariscos la Langosta,No_Alcohol_Served,none,medium,informal,None
+105,135073,Restaurante Bar El Gallinero,Wine-Beer,section,high,informal,yes
+106,132560,puesto de gorditas,No_Alcohol_Served,permitted,low,informal,other
+107,134976,Log Yin,No_Alcohol_Served,none,low,informal,yes
+108,135075,Mariscos El Pescador,No_Alcohol_Served,none,medium,informal,yes
+109,132660,carnitas mata calle Emilio Portes Gil,No_Alcohol_Served,none,low,informal,None
+110,132921,crudalia,Wine-Beer,section,low,casual,None
+111,132594,tacos de barbacoa enfrente del Tec,No_Alcohol_Served,not permitted,low,informal,other
+112,134986,Restaurant Las Mananitas,Wine-Beer,none,high,formal,yes
+113,135062,Restaurante El Cielo Potosino,No_Alcohol_Served,none,medium,informal,yes
+114,132766,Mikasa,Wine-Beer,none,medium,informal,yes
+115,135088,Cafeteria cenidet,No_Alcohol_Served,not permitted,low,informal,other
+116,135058,Restaurante Tiberius,No_Alcohol_Served,none,medium,informal,other
+117,132754,Cabana Huasteca,No_Alcohol_Served,none,medium,informal,None
+118,132584,Gorditas Dona Tota,No_Alcohol_Served,not permitted,medium,informal,yes
+119,135032,Cafeteria y Restaurant El Pacifico,Wine-Beer,section,medium,informal,other
+120,135028,La Virreina,Wine-Beer,none,medium,informal,None
+121,135085,Tortas Locas Hipocampo,No_Alcohol_Served,not permitted,medium,informal,other
+122,132663,tacos abi,No_Alcohol_Served,none,low,informal,None
+123,132626,la perica hamburguesa,No_Alcohol_Served,none,medium,informal,yes
+124,132583,McDonalds Centro,No_Alcohol_Served,not permitted,low,informal,None
+125,132866,Chaires,No_Alcohol_Served,not permitted,medium,informal,yes
+126,135072,Sushi Itto,No_Alcohol_Served,none,medium,informal,None
+127,135109,Paniroles,Wine-Beer,not permitted,medium,informal,None
+128,135019,Restaurant Bar Coty y Pablo,No_Alcohol_Served,none,low,informal,None
+129,132877,sirloin stockade,No_Alcohol_Served,none,low,informal,None
