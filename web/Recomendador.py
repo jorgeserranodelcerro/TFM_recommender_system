@@ -8,6 +8,7 @@ users=perfiles['userID']
 perfiles.drop('userID',axis=1,inplace=True)
 rating = pd.read_csv('../Data/rating_final.csv')
 rInfo=pd.read_csv('static/data/rInfo.csv')
+rInfo.drop('Unnamed: 0',axis=1,inplace=True)
 array_norm = perfiles.values
 
 
@@ -65,4 +66,17 @@ def CodeBudget(Budget):
     elif Budget.upper() == 'HIGH':
         return 2
 
+def top5votados():
+    aux=list(rating.groupby('placeID')['userID'].count().sort_values(ascending=False).head().index)
+    out=rInfo[rInfo['placeID'].isin(aux)]
+    return out[['name','alcohol','smoking_area','price','dress_code','parking_lot']]
 
+def top5mejores():
+    aux=list(rating.groupby('placeID')['rating'].mean().sort_values(ascending=False).head().index)
+    out=rInfo[rInfo['placeID'].isin(aux)]
+    return out[['name','alcohol','smoking_area','price','dress_code','parking_lot']]
+
+def top5comidas():
+    aux=list(rating.groupby('placeID')['food_rating'].mean().sort_values(ascending=False).head().index)
+    out=rInfo[rInfo['placeID'].isin(aux)]
+    return out[['name','alcohol','smoking_area','price','dress_code','parking_lot']]
